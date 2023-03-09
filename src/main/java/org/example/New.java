@@ -1,2 +1,4 @@
-package org.example;public class New {
+package org.example;
+
+public class New {
 }
