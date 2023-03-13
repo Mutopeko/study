@@ -1,4 +1,4 @@
-package org.example;
+package com.pingwit;
 
 public class TypeCasting {
     public static void main(String[] args) {
