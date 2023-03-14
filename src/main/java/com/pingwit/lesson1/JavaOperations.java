@@ -1,4 +1,4 @@
-package com.pingwit.Lesson1;
+package com.pingwit.lesson1;
 
 public class JavaOperations {
     public static void main(String[] args) {
