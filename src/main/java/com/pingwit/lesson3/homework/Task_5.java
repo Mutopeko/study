@@ -10,8 +10,7 @@ public class Task_5 {
         double inch = 2.54;
         int max = 20;
         for (int i = 1; i <= max; i++) {
-            double x = i * inch;
-            System.out.println(i + " = " + x);
+            System.out.println(i + " = " + (i * inch));
         }
     }
 }
