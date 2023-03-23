@@ -9,11 +9,13 @@ public class Task_1 {
      */
     public static void main(String[] args) {
         int[] array = new int[3];
+        int sum = 0;
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the numbers: ");
         for (int i = 0; i < array.length; i++) {
             array[i] = scanner.nextInt();
+            sum += array[i];
         }
-        System.out.println(array[0] + array[1] + array[2]);
+        System.out.println("Sum = " + sum);
     }
 }

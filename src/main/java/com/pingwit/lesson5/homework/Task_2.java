@@ -9,8 +9,8 @@ public class Task_2 {
         int sum = 0;
         for (int i = 0; i < array.length; i++) {
             array[i] = (i + 1) * 10;
-            sum =+ array[i];
+            sum += array[i];
         }
-        System.out.println(sum);
+        System.out.println("Arithmetic mean = " + (sum / array.length));
     }
 }
